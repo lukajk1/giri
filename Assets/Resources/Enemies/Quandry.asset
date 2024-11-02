@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379707674c5b6f9449ac6b3a37448486, type: 3}
+  m_Name: Quandry
+  m_EditorClassIdentifier: 
+  healthbarCanvas: {fileID: 1230923917039084873, guid: d96a7395776e686459d855331e0e92cd, type: 3}
+  unitCommandName: quandry
+  unitVanityName: quandry
+  FlyingUnit: 1
+  baseMaxHealth: 999
+  Shield: 0
+  baseAttackRange: 3.2
+  baseDamage: 50
+  baseMoveSpeed: 1.05
+  baseLifesteal: 0
+  baseCooldownLength: 1
+  AttackStyle: 4
+  attackData: {fileID: 11400000, guid: d1bca9a7b1e63f046bfc7bb8c98dd02e, type: 2}
+  fieldOffsetDistance: -1.7
+  enemyPrefab: {fileID: 3816556547007400394, guid: 923bfe0b43d4f8f4fa389fe86ac97fda, type: 3}
+  attackPrefab: {fileID: 6393996122222642154, guid: cc3a50a403c7434409153af67e706694, type: 3}
+  attackSFX: {fileID: 8300000, guid: 8581763b2f5be194fad827bdc995e854, type: 3}
+  attackSFXName: 
+  bobbingSpeed: 2
+  bobbingHeight: 0.2
+  baseWalkingSpeed: 0
+  speedMultiplier: 0
+  stepHeight: 0
+  rotationAngle: 0
+  intervalBetweenAttacks: 0
+  numberOfAttacks: 0
+  randomRotation: 0

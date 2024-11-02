@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d95c3c7c57b3aa4580e319393c69f7c, type: 3}
+  m_Name: jayFeather
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 9da7d2cd12141234ba9a93eb4a67e134, type: 3}
+  commandItemName: jayFeather
+  vanityItemName: Jay Feather
+  description: 'Passive - Spiked Talons: deal 8% increased damage to flying enemies'
+  flavorText: 
+  tier: 1
+  moveSpeed: 0
+  health: 0
+  damage: 27
+  attackRange: 0
+  attackSpeed: 0
+  cooldownReduction: 0.05
+  critChance: 0
+  critDamage: 0
+  lifesteal: 0
+  _passive: IPMoreDmgToFlying
+  cooldown: 0
+  activatableEffect: 

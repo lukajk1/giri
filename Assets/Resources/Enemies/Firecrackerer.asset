@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379707674c5b6f9449ac6b3a37448486, type: 3}
+  m_Name: Firecrackerer
+  m_EditorClassIdentifier: 
+  healthbarCanvas: {fileID: 1230923917039084873, guid: d96a7395776e686459d855331e0e92cd, type: 3}
+  unitCommandName: firecrackerer
+  unitVanityName: firecrackerer
+  flyingUnit: 0
+  baseMaxHealth: 185
+  baseAttackRange: 8
+  baseDamage: 50
+  baseMoveSpeed: 0.83
+  baseLifesteal: 0
+  baseCooldownReduction: 0
+  attackType: onPlayer
+  attackEffect: 0
+  attackCooldown: 5
+  attackCastingTime: 0
+  fieldOffsetDistance: 0
+  enemyPrefab: {fileID: 723100757646542403, guid: 5ec88dc5725e137439b0c522dd95db0e, type: 3}
+  attackPrefab: {fileID: 6479624793809350554, guid: 34907309b384b0d42bf8528212f823ce, type: 3}
+  passiveSFX: {fileID: 8300000, guid: 7f1e9210f0218d64998c7a410cd065e2, type: 3}
+  passiveSFXFrequency: 3
+  attackSFX: {fileID: 8300000, guid: 8581763b2f5be194fad827bdc995e854, type: 3}
+  bobbingSpeed: 0
+  bobbingHeight: 0
+  baseWalkingSpeed: 5
+  speedMultiplier: 3.55
+  stepHeight: 0.15
+  rotationAngle: 10.8
+  intervalBetweenAttacks: 0
+  numberOfAttacks: 0
+  randomRotation: 0

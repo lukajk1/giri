@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - DoNotDestroy
+  - BodyHitbox
+  - FeetHitbox
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - post processing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: background
+    uniqueID: 3613380253
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: aoe attacks
+    uniqueID: 599707757
+    locked: 0
+  - name: shadows
+    uniqueID: 2757042603
+    locked: 0
+  - name: behind-models effects
+    uniqueID: 4074652581
+    locked: 0
+  - name: models
+    uniqueID: 1910117261
+    locked: 0
+  - name: model overlays
+    uniqueID: 95762023
+    locked: 0
+  - name: entity particle effects
+    uniqueID: 3094069357
+    locked: 0
+  - name: projectile attacks
+    uniqueID: 2222727765
+    locked: 0
+  - name: healthbars
+    uniqueID: 902444985
+    locked: 0
+  - name: damage numbers
+    uniqueID: 2840614831
+    locked: 0
+  - name: menus
+    uniqueID: 1873743501
+    locked: 0
+  - name: CameraSortingLayer
+    uniqueID: 523721941
+    locked: 0

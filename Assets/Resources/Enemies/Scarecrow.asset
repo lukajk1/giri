@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379707674c5b6f9449ac6b3a37448486, type: 3}
+  m_Name: Scarecrow
+  m_EditorClassIdentifier: 
+  healthbarCanvas: {fileID: 1230923917039084873, guid: d96a7395776e686459d855331e0e92cd, type: 3}
+  unitCommandName: scarecrow
+  unitVanityName: scarecrow
+  FlyingUnit: 0
+  baseMaxHealth: 600
+  Shield: 0
+  baseAttackRange: 2.5
+  baseDamage: 50
+  baseMoveSpeed: 1.7
+  baseLifesteal: 0
+  baseCooldownLength: 1
+  AttackStyle: 4
+  attackData: {fileID: 11400000, guid: 3698ad4ff2bdc234792b26038173388b, type: 2}
+  fieldOffsetDistance: 0
+  enemyPrefab: {fileID: 639178961520686099, guid: e428748cd90ccce4ea4a1b7290e802c7, type: 3}
+  attackPrefab: {fileID: 2615990912550345731, guid: c6eb0ca48728cd44cbf234e8f3223bdf, type: 3}
+  attackSFX: {fileID: 0}
+  attackSFXName: 
+  bobbingSpeed: 0
+  bobbingHeight: 0
+  baseWalkingSpeed: 5
+  speedMultiplier: 8.07
+  stepHeight: 0.15
+  rotationAngle: 10.8
+  intervalBetweenAttacks: 1
+  numberOfAttacks: 2
+  randomRotation: 0

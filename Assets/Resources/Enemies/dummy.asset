@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379707674c5b6f9449ac6b3a37448486, type: 3}
+  m_Name: dummy
+  m_EditorClassIdentifier: 
+  healthbarCanvas: {fileID: 1230923917039084873, guid: d96a7395776e686459d855331e0e92cd, type: 3}
+  unitCommandName: dummy
+  unitVanityName: Dummy
+  FlyingUnit: 1
+  baseMaxHealth: 9999
+  baseAttackRange: 1
+  baseDamage: 1
+  baseMoveSpeed: 1
+  baseLifesteal: 0
+  baseCooldownLength: 1
+  attackType: onPlayer
+  attackEffect: 0
+  attackCooldown: 1
+  attackCastingTime: 0
+  fieldOffsetDistance: 0
+  enemyPrefab: {fileID: 8466173522293806855, guid: 2ebc8a313c426344f97911e51cb829d7, type: 3}
+  attackPrefab: {fileID: 6237841857502476596, guid: 8caf6dbf16a09014cb107b91bd013f71, type: 3}
+  attackSFX: {fileID: 8300000, guid: 8581763b2f5be194fad827bdc995e854, type: 3}
+  attackSFXName: 
+  bobbingSpeed: 2.1
+  bobbingHeight: 0.15
+  baseWalkingSpeed: 0
+  speedMultiplier: 0
+  stepHeight: 0
+  rotationAngle: 0
+  intervalBetweenAttacks: 0.5
+  numberOfAttacks: 3
+  randomRotation: 1

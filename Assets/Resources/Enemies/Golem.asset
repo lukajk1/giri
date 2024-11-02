@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379707674c5b6f9449ac6b3a37448486, type: 3}
+  m_Name: Golem
+  m_EditorClassIdentifier: 
+  healthbarCanvas: {fileID: 1230923917039084873, guid: d96a7395776e686459d855331e0e92cd, type: 3}
+  unitCommandName: golem
+  unitVanityName: golem
+  FlyingUnit: 0
+  baseMaxHealth: 1300
+  baseAttackRange: 2.1
+  baseDamage: 50
+  baseMoveSpeed: 1.18
+  baseLifesteal: 0
+  baseCooldownLength: 1
+  attackType: onSelf
+  attackEffect: 0
+  attackCooldown: 5
+  attackCastingTime: 0
+  fieldOffsetDistance: 0
+  enemyPrefab: {fileID: 5534947651892827291, guid: 8c5c2564bc9e2b94c8ebbae8c92a5998, type: 3}
+  attackPrefab: {fileID: 6479624793809350554, guid: 7c093da52a9f77e41b5a64fd41a91c5c, type: 3}
+  attackSFX: {fileID: 0}
+  attackSFXName: 
+  bobbingSpeed: 0
+  bobbingHeight: 0
+  baseWalkingSpeed: 4.82
+  speedMultiplier: 2.24
+  stepHeight: 0.1
+  rotationAngle: 5.23
+  intervalBetweenAttacks: 0
+  numberOfAttacks: 0
+  randomRotation: 0

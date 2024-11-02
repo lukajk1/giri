@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 668502c2cc391e84fa28f68f7e32ff95
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - boots: {fileID: 11400000, guid: 32bc27ac918b2c24fa89e78563a3e23b, type: 2}
+  - sword: {fileID: 11400000, guid: 424627f59941f2a44b7764ebfdbd21b6, type: 2}
+  - bow: {fileID: 11400000, guid: 65af5e293b87be848b4a80fa2ddc4e78, type: 2}
+  - helmet: {fileID: 11400000, guid: 5d13bd2c0493f93439daf410861fa364, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

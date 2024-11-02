@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee696f81ea253b45919f03843ef1e0d, type: 3}
+  m_Name: Nile
+  m_EditorClassIdentifier: 
+  unitCommandName: nile
+  unitVanityName: Nile
+  FlyingUnit: 1
+  baseMaxHealth: 500
+  Shield: 50
+  baseAttackRange: 5.2
+  baseDamage: 65
+  baseMoveSpeed: 2.5
+  baseLifesteal: 0
+  baseCooldownLength: 1
+  HealthbarCanvas: {fileID: 775769698295800873, guid: 836a8424cca4f3640a04a469217d4ff7, type: 3}
+  BaseCritChance: 0.2
+  BaseCritDamage: 1.5
+  BaseAttackSpeed: 2.5

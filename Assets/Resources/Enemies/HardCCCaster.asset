@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379707674c5b6f9449ac6b3a37448486, type: 3}
+  m_Name: HardCCCaster
+  m_EditorClassIdentifier: 
+  healthbarCanvas: {fileID: 1230923917039084873, guid: d96a7395776e686459d855331e0e92cd, type: 3}
+  unitCommandName: hardCCCaster
+  unitVanityName: hardCCCaster
+  FlyingUnit: 1
+  baseMaxHealth: 223
+  Shield: 0
+  baseAttackRange: 8.2
+  baseDamage: 50
+  baseMoveSpeed: 1.15
+  baseLifesteal: 0
+  baseCooldownLength: 1
+  AttackStyle: 2
+  attackData: {fileID: 11400000, guid: b50ff646fdcd32a4aa5c0767d77b3944, type: 2}
+  fieldOffsetDistance: 0
+  enemyPrefab: {fileID: 4052647267012433562, guid: ccf345082fc0b8741b8810f178b76dd1, type: 3}
+  attackPrefab: {fileID: 4299721365759370562, guid: e4b5dc90ea72476438f8b129b4b2c3c7, type: 3}
+  attackSFX: {fileID: 8300000, guid: 8581763b2f5be194fad827bdc995e854, type: 3}
+  attackSFXName: enemyCastAttack
+  bobbingSpeed: 2
+  bobbingHeight: 0.2
+  baseWalkingSpeed: 0
+  speedMultiplier: 0
+  stepHeight: 0
+  rotationAngle: 0
+  intervalBetweenAttacks: 0
+  numberOfAttacks: 0
+  randomRotation: 0

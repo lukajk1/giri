@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379707674c5b6f9449ac6b3a37448486, type: 3}
+  m_Name: Grunt
+  m_EditorClassIdentifier: 
+  healthbarCanvas: {fileID: 1230923917039084873, guid: d96a7395776e686459d855331e0e92cd, type: 3}
+  unitCommandName: grunt
+  unitVanityName: grunt
+  FlyingUnit: 0
+  baseMaxHealth: 204
+  Shield: 0
+  baseAttackRange: 2
+  baseDamage: 50
+  baseMoveSpeed: 1.02
+  baseLifesteal: 0
+  baseCooldownLength: 1
+  AttackStyle: 4
+  attackData: {fileID: 11400000, guid: c6262e448eaae9d4ca385314d6bd43a8, type: 2}
+  attackCooldown: 5
+  fieldOffsetDistance: -0.5
+  enemyPrefab: {fileID: 3597058746709167560, guid: 1cca8aecba5c64c409011491bf319017, type: 3}
+  attackPrefab: {fileID: 2615990912550345731, guid: 71ceb5ddac36d6e42ae77f043648a7cd, type: 3}
+  attackSFX: {fileID: 0}
+  attackSFXName: 
+  bobbingSpeed: 0
+  bobbingHeight: 0
+  baseWalkingSpeed: 6.19
+  speedMultiplier: 5.01
+  stepHeight: 0.15
+  rotationAngle: 12
+  intervalBetweenAttacks: 0
+  numberOfAttacks: 0
+  randomRotation: 0

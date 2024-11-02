@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379707674c5b6f9449ac6b3a37448486, type: 3}
+  m_Name: RootBrute
+  m_EditorClassIdentifier: 
+  healthbarCanvas: {fileID: 1230923917039084873, guid: d96a7395776e686459d855331e0e92cd, type: 3}
+  unitCommandName: rootBrute
+  unitVanityName: rootBrute
+  FlyingUnit: 0
+  baseMaxHealth: 700
+  Shield: 100
+  baseAttackRange: 2.1
+  baseDamage: 50
+  baseMoveSpeed: 1.18
+  baseLifesteal: 0
+  baseCooldownLength: 1
+  AttackStyle: 5
+  attackData: {fileID: 11400000, guid: 1872f94fe1bba2e48a68a01b5deef1e6, type: 2}
+  fieldOffsetDistance: 0
+  enemyPrefab: {fileID: 5534947651892827291, guid: 791080e982e192240aa796822bc94f96, type: 3}
+  attackPrefab: {fileID: 6479624793809350554, guid: 7c093da52a9f77e41b5a64fd41a91c5c, type: 3}
+  attackSFX: {fileID: 0}
+  attackSFXName: 
+  bobbingSpeed: 0
+  bobbingHeight: 0
+  baseWalkingSpeed: 5
+  speedMultiplier: 3.55
+  stepHeight: 0.15
+  rotationAngle: 10.8
+  intervalBetweenAttacks: 0
+  numberOfAttacks: 0
+  randomRotation: 0
